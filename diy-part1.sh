@@ -21,7 +21,7 @@ sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packa
 # git clone https://github.com/kuoruan/openwrt-v2ray.git package/v2ray-core
 # git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
 git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 # git clone https://github.com/vernesong/OpenClash.git
 # mv ./OpenClash/luci-app-openclash ./package/
