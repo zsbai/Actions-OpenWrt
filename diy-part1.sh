@@ -33,3 +33,4 @@ rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
 make menuconfig #choose LUCI->Theme->Luci-theme-argon  
 make -j1 V=s  
+cd ../../..
